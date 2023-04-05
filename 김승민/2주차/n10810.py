@@ -13,4 +13,5 @@ for t in range(M_method):
 for t in range(len(basket_array)):
     print(basket_array[t], end=" ")
 
+
 #젠장 실행하는 법 모르겠다 물어보자 (4/5)
