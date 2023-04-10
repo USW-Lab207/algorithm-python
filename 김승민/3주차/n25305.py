@@ -1,7 +1,7 @@
 people, price = map(int,input().split())
 
-point = list(map(int,input().split()))
+score = list(map(int,input().split()))
 
-point.sort(reverse=True)
+score.sort(reverse=True)
 
-print(point[price-1])
+print(score[price-1])
