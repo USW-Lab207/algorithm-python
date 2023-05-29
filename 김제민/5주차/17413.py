@@ -3,8 +3,8 @@ input = sys.stdin.readline
 s = list(input())
 i = 0
 k = 0
-switch = []
-while i < len(s):
+switch = [] 
+while i < len(s): 
     if s[i] == '<':
         i += 1
         while s[i] != '>':

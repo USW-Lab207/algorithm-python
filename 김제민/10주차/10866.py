@@ -25,7 +25,7 @@ for i in range(n):
         if len(stack) > 0:
             print(0)
         else:
-            print(1)
+            print(1) 
     if comm[0] == 'front':
         try:
             print(stack[0])

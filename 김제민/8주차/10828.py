@@ -7,7 +7,7 @@ for i in range(n):
     if comm[0] == 'push':
         stack.append(int(comm[1]))
     elif comm[0] == 'pop':
-        if len(stack) > 0:
+        if len(stack) > 0: 
             print(stack.pop(-1))
         else:
             print(-1)

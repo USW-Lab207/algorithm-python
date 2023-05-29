@@ -1,7 +1,7 @@
 import sys
 input = sys.stdin.readline
 word = list(input().rstrip())
-key = list(input().rstrip())
+key = list(input().rstrip()) 
 check = []
 i = 0
 while i < len(word):

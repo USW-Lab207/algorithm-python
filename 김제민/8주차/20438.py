@@ -25,7 +25,7 @@ for num in range(3, n + 3):
 
     else:
         dp_sum[num] = dp[num] + dp_sum[num - 1]
-
+ 
 
 for _ in range(m):
     i, j = map(int, input().split())

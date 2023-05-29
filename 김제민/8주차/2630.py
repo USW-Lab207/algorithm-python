@@ -16,7 +16,7 @@ def solution(x, y, N) :
         solution(x+N//2, y+N//2, N//2)
         return
   if color == 0 :
-    result.append(0)
+    result.append(0) 
   else :
     result.append(1)
 
